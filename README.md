@@ -15,7 +15,7 @@
 
 - HTML
 - CSS
-- VANILA JAVASCRIPT
+- Vanila Javascript
 - Atom text editor
 - Webpack
 - Npm
