@@ -73,10 +73,9 @@ const Initialize = () => {
       }, 2000);
     } else {
       Getweather(city).then((result) => {
-        console.log(result);
         Showdata(result);
       }).catch((error) => {
-        console.log(error);
+        Showerror(error);
         setTimeout(() => {
           error.classList.remove('show');
         }, 2000);
@@ -87,7 +86,6 @@ const Initialize = () => {
 
   clearbtn.addEventListener('click', () => {
     display.innerHTML = '';
-    console.log('working!!');
   });
 };
 
