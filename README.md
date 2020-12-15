@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[WeatherApp]()
+[WeatherApp](https://weathertoday-js.netlify.app/)
 
 ## Built With
 
