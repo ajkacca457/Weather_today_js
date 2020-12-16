@@ -1,4 +1,5 @@
 import Logo from './images/cloudy.png';
+import Loader from './images/loading.gif';
 
 const Interface = () => {
   const container = document.createElement('div');
@@ -18,6 +19,7 @@ const Interface = () => {
   </form>
   <button id="btn2"> clear</button>
   <div class="display"></div>
+  <img src="${Loader}" alt="wait" id="load">
 `;
   errorcont.innerHTML = '<p>Here all the errors will be shown</p>';
 

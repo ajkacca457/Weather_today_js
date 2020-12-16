@@ -122,6 +122,61 @@ body {
   padding: 1% 0;
 }
 
+#fer {
+  margin-left:-5px;
+  background-color: #ffae1a;
+    border: 1px white solid;
+    color:white;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#cel {
+  background-color: #ff6666;
+  color:white;
+  border: 1px white solid;
+  border-radius: 5px 0 0 5px ;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#cel:focus {
+  outline: none;
+}
+#cel.active {
+  background-color: rgba(3, 134, 221, 0.40);
+}
+#fer.active{
+  background-color: rgba(3, 134, 221, 0.40);
+}
+
+#fer:focus {
+  outline:none;
+}
+
+#load{
+margin-top: 20px;
+background-color: white;
+height: 100px;
+width: 100px;
+border-radius:10px;
+display: none;
+}
+
+#load.load{
+  display: block;
+  margin: 20px auto;
+}
+
+.display.load {
+  display: none;
+}
+
+.btncont {
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
 @media only screen and (max-width: 800px) {
 
   .container { width: 90%; }
