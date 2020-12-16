@@ -2,31 +2,33 @@
 
 body {
   box-sizing: border-box;
-  background-color: rgba(153, 216, 250, 0.4);
+  background-color: rgba(153, 216, 250,.4);
   font-family: 'Slabo 27px', serif;
+
 }
 
 .container {
   width: 50%;
   margin: 2% auto;
-  background-image: -webkit-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
-  background-image: -o-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+background-image: -webkit-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
+background-image: -o-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
+background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
   padding: 2%;
   text-align: center;
   border-radius: 5px;
   position: relative;
 }
 
-.errordisplay {
-  margin: 2% auto;
-  width: 50%;
-  background-color: rgba(220, 117, 96, 1);
-  text-align: center;
-  padding: 10px 0;
-  color: white;
-  display: none;
-  border-radius: 5px;
+.errordisplay
+{
+ margin: 2% auto;
+ width: 50%;
+ background-color: rgba(220, 117, 96, 1);
+ text-align: center;
+ padding:10px 0;
+ color:white;
+ display: none;
+ border-radius: 5px;
 }
 
 .errordisplay.show {
@@ -36,7 +38,7 @@ body {
 #input {
   width: 70%;
   display: block;
-  padding-left: 5px;
+  padding-left:5px;
   height: 30px;
   border-radius: 5px;
   border: none;
@@ -55,18 +57,17 @@ body {
 
 #btn2 {
   width: 50%;
-  background-color: rgba(220, 117, 96, 1);
+  background-color:rgba(220, 117, 96, 1);
   font-family: 'Slabo 27px', serif;
   border-radius: 5px;
   border: none;
   padding: 1% 0;
-  color: white;
+  color:white;
 }
 
 #btn:focus {
   outline: none;
 }
-
 #btn2:focus {
   outline: none;
 }
@@ -75,25 +76,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color:white;
   text-shadow: 1px 2px grey;
 }
 
-#logo {
-  width: 50px;
-  height: 50px;
+#logo{
+  width:50px;
+  height: 50px
 }
 
 .white-color {
-  color: white;
+  color:white;
 }
-
 #flag {
   margin-top: -20px;
 }
-
 #temp {
-  font-size: 300%;
+  font-size:300%;
 }
 
 .temperature h1 {
@@ -106,12 +105,11 @@ body {
 }
 
 .middle {
-  background-color: rgba(153, 216, 250, 0.5);
+  background-color: rgba(153, 216, 250,.5);
   padding: 1% 0;
 }
-
 .middle h3 {
-  margin-top: -10px;
+  margin-top:-10px;
 }
 
 #cname {
@@ -119,55 +117,51 @@ body {
 }
 
 .other {
-  background-color: rgba(3, 134, 221, 0.4);
+  background-color:rgba(3, 134, 221, 0.40);
   padding: 1% 0;
 }
 
 #fer {
-  margin-left: -5px;
+  margin-left:-5px;
   background-color: #ffae1a;
-  border: 1px white solid;
-  color: white;
-  border-radius: 0 5px 5px 0;
-  padding: 5px 10px;
-  cursor: pointer;
+    border: 1px white solid;
+    color:white;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
 }
-
 #cel {
-  background-color: #f66;
-  color: white;
+  background-color: #ff6666;
+  color:white;
   border: 1px white solid;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px ;
   padding: 5px 10px;
   cursor: pointer;
 }
-
 #cel:focus {
   outline: none;
 }
-
 #cel.active {
-  background-color: rgba(3, 134, 221, 0.4);
+  background-color: rgba(3, 134, 221, 0.40);
 }
-
-#fer.active {
-  background-color: rgba(3, 134, 221, 0.4);
+#fer.active{
+  background-color: rgba(3, 134, 221, 0.40);
 }
 
 #fer:focus {
-  outline: none;
+  outline:none;
 }
 
-#load {
-  margin-top: 20px;
-  background-color: white;
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-  display: none;
+#load{
+margin-top: 20px;
+background-color: white;
+height: 100px;
+width: 100px;
+border-radius:10px;
+display: none;
 }
 
-#load.load {
+#load.load{
   display: block;
   margin: 20px auto;
 }
@@ -177,12 +171,12 @@ body {
 }
 
 .btncont {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  position:absolute;
+  top:10px;
+  right:10px;
 }
 
 @media only screen and (max-width: 800px) {
 
-  .container { width: 90%; }
+.container {width: 90%}
 }
